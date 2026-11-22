@@ -1,0 +1,14 @@
+{
+  "name": "unbroker-xray",
+  "version": "1.0.0",
+  "description": "Node.js xray (VLESS over WebSocket) service for Unbroker Cloud",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "node scripts/install-xray.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
